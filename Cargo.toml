@@ -1,0 +1,26 @@
+[package]
+name = "has_fast_pdep"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.85.0"
+description = "A library to check for a fast implementation of PDEP/PEXT instructions."
+repository = "https://github.com/seancroach/has_fast_pdep"
+license = "MIT OR Apache-2.0"
+keywords = ["bmi2", "cpuid", "pdep", "pext"]
+categories = ["embedded", "hardware-support", "no-std::no-alloc"]
+
+[lints.clippy]
+cargo = "deny"
+complexity = "deny"
+correctness = "deny"
+nursery = "deny"
+pedantic = "deny"
+perf = "deny"
+style = "deny"
+suspicious = "deny"
+
+absolute_paths = "deny"
+alloc_instead_of_core = "deny"
+arithmetic_side_effects = "deny"
+std_instead_of_alloc = "deny"
+std_instead_of_core = "deny"

@@ -1,0 +1,14 @@
+{
+    "rust-analyzer.check.command": "clippy",
+    "rust-analyzer.rustfmt.overrideCommand": [
+        "rustfmt",
+        "+nightly"
+    ],
+    "cSpell.words": [
+        "cpuid",
+        "dtolnay",
+        "Hygon",
+        "PDEP",
+        "PEXT",
+    ]
+}
