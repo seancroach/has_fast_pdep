@@ -1,4 +1,4 @@
-#![doc = include_str!("../README.md")]
+#![doc = include_str!("README.md")]
 #![no_std]
 #![expect(clippy::inline_always, reason = "This is used rationally.")]
 
