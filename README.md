@@ -56,7 +56,7 @@ You can view the documentation on docs.rs [here](https://docs.rs/has_fast_pdep).
 The result of the hardware check is determined once at runtime. After the initial check, all future
 calls to `has_fast_pdep` becomes a simple `true` or `false` with zero branching or logic.
 
-On x86 targets, CPUID is used directly without probing for its existence. This is intentional. For every tier 1 Rust target CPUID is guaranteed to be present. If you're targeting old hardware, such as an i486, this crate might not be for you. If you happen to be that individual, make an issue, and I'll reimplement the probing logic via inline assembly.
+On x86 targets, CPUID is used directly without probing for its existence. This is intentional. For every tier 1 x86 Rust target, CPUID is guaranteed to be present. If you're targeting old hardware, such as an i486, this crate might not be for you. If you happen to be that individual, make an issue, and I'll reimplement the probing logic via inline assembly.
 
 ## License
 
